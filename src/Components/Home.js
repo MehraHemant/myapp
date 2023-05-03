@@ -1,7 +1,7 @@
 import React from "react";
 
 function Home(props) {
-  let color = false;
+  let color = true;
   return color ? (
     <ul>
       {props.fruits.map((el, i) => (
